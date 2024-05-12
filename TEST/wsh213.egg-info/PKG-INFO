@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: wsh213
+Version: 0.0.1
+Summary: Waveshare 2.13" Wrapper
+Author: Azazel
+Author-email: azazel.codes@gmail.com
+Keywords: rpi,waveshare,display,2.13",epaper
+Requires-Dist: RPi.GPIO
+Requires-Dist: spidev
+
+Communicate with the Waveeshare 2.13" with ease!

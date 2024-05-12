@@ -1,0 +1,8 @@
+setup.py
+wsh213/__init__.py
+wsh213/epdconfig.py
+wsh213.egg-info/PKG-INFO
+wsh213.egg-info/SOURCES.txt
+wsh213.egg-info/dependency_links.txt
+wsh213.egg-info/requires.txt
+wsh213.egg-info/top_level.txt
