@@ -17,7 +17,6 @@ setup(
     author='Azazel',
     author_email='azazel.codes@gmail.com',
     keywords='waveshare ',
-    #py_modules=["pyky040"],
     packages=find_packages(),
     install_requires=['RPi.GPIO', 'spidev'],
 )
