@@ -8,7 +8,7 @@ if os.path.exists(libdir):
     sys.path.append(libdir)
 
 import logging
-from waveshare_epd import epd2in13_V3
+import waveshare_two_thirteen
 import time
 from PIL import Image,ImageDraw,ImageFont
 import traceback
@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.DEBUG)
 try:
     logging.info("epd2in13_V3 Demo")
     
-    epd = epd2in13_V3.EPD()
+    epd = waveshare_two_thirteen.EPD()
     logging.info("init and Clear")
     epd.init()
     epd.Clear(0xFF)
