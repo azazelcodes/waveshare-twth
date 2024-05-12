@@ -9,14 +9,15 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='wavesharetwth',
-    version='0.0.1',
-    description='Communicate with the Waveshare 2.13" V3 with ease.',
+    version='0.0.2',
+    description='Use the Waveshare 2.13" V3 easily.',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/azazelcodes/wavesharetwth',
-    author='Azazel',
+    author='Raphael Yancey',
     author_email='azazel.codes@gmail.com',
-    keywords='waveshare ',
+    keywords='waveshare epaper display 2.13"',
+    #py_modules=["wavesharetwth"],
     packages=find_packages(),
     install_requires=['RPi.GPIO', 'spidev'],
 )
