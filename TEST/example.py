@@ -2,11 +2,7 @@
 # -*- coding:utf-8 -*-
 import sys
 import os
-libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'lib')
-if os.path.exists(libdir):
-    sys.path.append(libdir)
-
-from waveshare_epd import epd2in13_V3
+import wsh213
 import time
 from PIL import Image,ImageDraw,ImageFont
 
