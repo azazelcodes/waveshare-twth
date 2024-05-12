@@ -13,11 +13,10 @@ setup(
     description='Communicate with the Waveshare 2.13" V3 with ease.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/azazelcodes/waveshare_two_thirteen',
+    url='https://github.com/azazelcodes/wavesharetwth',
     author='Azazel',
     author_email='azazel.codes@gmail.com',
     keywords='waveshare ',
-    #py_modules=["pyky040"],
     packages=find_packages(),
     install_requires=['RPi.GPIO', 'spidev'],
 )
