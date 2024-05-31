@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wsh213v4"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["azazeldev <68147363+azazelcodes@users.noreply.github.com>"]
 readme = "README.md"
